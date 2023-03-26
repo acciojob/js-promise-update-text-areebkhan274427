@@ -11,5 +11,5 @@ function call(){
 
 call().then(function (data) {
 	const div = document.querySelector('output')
-    div.innerHTML = "Hello, world!";
+    div.innerHTML = data;
 })
