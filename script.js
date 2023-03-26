@@ -10,6 +10,6 @@ function call(){
 
 
 call().then(function (data) {
-	const div = document.querySelector('output')
+	const div = document.getElementById('output')
     div.innerHTML = data;
 })
